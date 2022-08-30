@@ -26,15 +26,15 @@ public class BasePage {
     /**
      * the method checks that the titles of the found products contain the brand name
      *
-     * @param itemName name of search item
+     * @param brand name of search item
      * @return stream of logical true or false
      */
-    public Stream<Boolean> checkSearchedItemsByName(String itemName) {
+    public Stream<Boolean> checkSearchedItemsByBrand(String brand) {
         List<WebElement> searchResult = driver.findElements(By.xpath("//div[@data-index]//h3/a"));
         return searchResult.stream()
                 .map(webElement -> webElement.getAttribute("title")
                         .toLowerCase()
-                        .contains(itemName.toLowerCase()));
+                        .contains(brand.toLowerCase()));
     }
 
     /**

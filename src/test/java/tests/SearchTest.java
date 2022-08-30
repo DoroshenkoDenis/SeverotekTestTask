@@ -23,7 +23,7 @@ public class SearchTest extends BaseTest {
         notebooksPage.setPrice(min, max);
         notebooksPage.selectBrand(brand);
         scrollDown();
-        notebooksPage.checkSearchedItemsByName(brand)
+        notebooksPage.checkSearchedItemsByBrand(brand)
                 .forEach(Assertions::assertTrue);
     }
 
