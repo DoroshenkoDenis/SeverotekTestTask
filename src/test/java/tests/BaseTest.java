@@ -21,8 +21,14 @@ public class BaseTest {
      */
     @BeforeAll
     static void setUp() {
-        WebDriverManager.operadriver().setup();
-        driver = new ChromeDriver();
+       try {
+           WebDriverManager.operadriver().setup();
+           driver = new ChromeDriver();
+       }
+       catch (NullPointerException e){
+           throw new Error("Driver could not found " + e);
+       }
+
     }
 
     /**

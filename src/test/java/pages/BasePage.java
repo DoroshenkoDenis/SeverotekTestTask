@@ -3,7 +3,9 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -20,7 +22,11 @@ public class BasePage {
      * @param url target url
      */
     public void open(String url) {
-        driver.get(url);
+        try {
+            driver.get(url);
+        } catch (Exception e) {
+            throw new Error("network server is slow..check internet connection");
+        }
     }
 
     /**
