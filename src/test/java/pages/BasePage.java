@@ -24,7 +24,7 @@ public class BasePage {
     }
 
     /**
-     * the method checks for the brand name in the titles of the found products the brand name of the product
+     * the method checks that the titles of the found products contain the brand name
      *
      * @param itemName name of search item
      * @return stream of logical true or false
