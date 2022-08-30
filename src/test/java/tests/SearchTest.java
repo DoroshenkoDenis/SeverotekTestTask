@@ -13,14 +13,14 @@ public class SearchTest extends BaseTest {
      * @param brand brand name of the product
      */
     @DisplayName("Check Searched Items By Brand")
-    @ParameterizedTest(name = "{index} - {0} is a brand")
-    @ValueSource(strings = {"Lenovo", "Acer"})
-    public void checkSearchedItemsByBrandTest(String brand) throws InterruptedException {
+    @ParameterizedTest(name = "{index} - {0} is a brand, price from {1} to {2}")
+    @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
+    public void checkSearchedItemsByBrandTest(String brand, int min, int max) throws InterruptedException {
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
         catalogPopup.openCategory("Компьютеры");
         computersPage.selectItem("Ноутбуки");
-        notebooksPage.setPrice(20000, 30000);
+        notebooksPage.setPrice(min, max);
         notebooksPage.selectBrand(brand);
         scrollDown();
         notebooksPage.checkSearchedItemsByName(brand)
@@ -35,11 +35,8 @@ public class SearchTest extends BaseTest {
      * @param max   max maximum required price value
      */
     @DisplayName("Check Searched Items By Price value")
-    @ParameterizedTest
-    @CsvSource({
-            "Lenovo, 20000, 30000",
-            "Acer, 25000, 60000"
-    })
+    @ParameterizedTest(name = "{index} - {0} is a brand, price from {1} to {2}")
+    @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByPriceTest(String brand, int min, int max) throws InterruptedException {
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
