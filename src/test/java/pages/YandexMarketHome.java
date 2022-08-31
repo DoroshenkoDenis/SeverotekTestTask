@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 
 public class YandexMarketHome extends BasePage {
     public YandexMarketHome(WebDriver driver) {
@@ -17,10 +14,10 @@ public class YandexMarketHome extends BasePage {
      */
     public void openCatalog() {
         try {
-            WebElement catalogButton = driver.findElement(catalogBtnSelector);
-            catalogButton.click();
-        } catch (TimeoutException e) {
-            throw new Error("WebDriver could not locate the element " + e);
+            driver.findElement(catalogBtnSelector)
+                    .click();
+        } catch (NoSuchElementException e) {
+            throw new Error("WebDriver could not locate the element: " + e);
         }
     }
 

@@ -1,9 +1,8 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class ComputersPage extends BasePage {
     public ComputersPage(WebDriver driver) {
@@ -17,10 +16,10 @@ public class ComputersPage extends BasePage {
      */
     public void selectItem(String itemName) {
         try {
-            WebElement item = driver.findElement(By.xpath("//a[text() = '" + itemName + "']"));
-            item.click();
-        } catch (TimeoutException e) {
-            throw new Error("WebDriver could not locate the element " + e);
+            driver.findElement(By.xpath("//a[text() = '" + itemName + "']"))
+                    .click();
+        } catch (NoSuchElementException e) {
+            throw new Error("WebDriver could not locate the element: " + e);
         }
     }
 

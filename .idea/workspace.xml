@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/YandexMarketHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YandexMarketHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661865771578</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init commit">
+      <created>1661869713595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661869713595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

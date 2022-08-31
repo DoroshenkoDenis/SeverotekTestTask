@@ -1,9 +1,8 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class NotebooksPage extends BasePage {
 
@@ -18,10 +17,10 @@ public class NotebooksPage extends BasePage {
      */
     public void selectBrand(String brand) {
         try {
-            WebElement brandCheckBox = driver.findElement(By.xpath("//span[text() = '" + brand + "']/../.."));
-            brandCheckBox.click();
-        } catch (TimeoutException e) {
-            throw new Error("WebDriver could not locate the element " + e);
+            driver.findElement(By.xpath("//span[text() = '" + brand + "']/../.."))
+                    .click();
+        } catch (NoSuchElementException e) {
+            throw new Error("WebDriver could not locate the element: " + e);
         }
     }
 
@@ -33,12 +32,12 @@ public class NotebooksPage extends BasePage {
      */
     public void setPrice(int min, int max) {
         try {
-            WebElement minPrice = driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'от')]/../input"));
-            minPrice.sendKeys(String.valueOf(min));
-            WebElement maxPrice = driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'до')]/../input"));
-            maxPrice.sendKeys(String.valueOf(max));
-        } catch (TimeoutException e) {
-            throw new Error("WebDriver could not locate the element " + e);
+            driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'от')]/../input"))
+                    .sendKeys(String.valueOf(min));
+            driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'до')]/../input"))
+                    .sendKeys(String.valueOf(max));
+        } catch (NoSuchElementException e) {
+            throw new Error("WebDriver could not locate the element: " + e);
         }
     }
 
