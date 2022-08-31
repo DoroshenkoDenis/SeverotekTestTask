@@ -7,10 +7,6 @@
     <list default="true" id="c1ce54f0-a074-4918-8e72-7e494c748896" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CatalogPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CatalogPopup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/YandexMarketHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/YandexMarketHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,11 +257,19 @@
       <option name="project" value="LOCAL" />
       <updated>1661869713595</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="exceptions added">
+      <created>1661917406979</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661917406979</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="exceptions added" />
+    <option name="LAST_COMMIT_MESSAGE" value="exceptions added" />
   </component>
 </project>

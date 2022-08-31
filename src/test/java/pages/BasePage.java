@@ -26,6 +26,9 @@ public class BasePage {
         } catch (WebDriverException e) {
             throw new Error("Network server is slow..check internet connection: " + e);
         }
+        finally {
+            driver.quit();
+        }
     }
 
     /**
