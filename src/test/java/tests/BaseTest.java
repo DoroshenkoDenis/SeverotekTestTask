@@ -70,7 +70,7 @@ public class BaseTest {
     public void scrollDown() throws InterruptedException {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-        Thread.sleep(5000);
+        Thread.sleep(2000);
     }
 
 }
