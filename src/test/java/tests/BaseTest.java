@@ -40,7 +40,7 @@ public class BaseTest {
             driver.manage().window().maximize();
 //Set implicit wait:
 //wait for WebElement
-            int TIMEOUT = 3;
+            int TIMEOUT = 30;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 //wait for loading page
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TIMEOUT));
