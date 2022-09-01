@@ -10,7 +10,7 @@ public class ComputersPage extends BasePage {
         super(driver);
     }
 
-    final private static Logger logger = Logger.getLogger(CatalogPopup.class);
+    final private static Logger logger = Logger.getLogger(ComputersPage.class);
     private final String itemName = "Ноутбуки";
     final private By item = By.xpath("//a[text() = '" + itemName + "']");
 

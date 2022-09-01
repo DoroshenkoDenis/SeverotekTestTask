@@ -11,8 +11,10 @@ public class NotebooksPage extends BasePage {
         super(driver);
     }
 
-    final private static Logger logger = Logger.getLogger(CatalogPopup.class);
-    final private By brandNameCheckBox = By.xpath("//span[text() = '" + brand + "']/..");
+    final private static Logger logger = Logger.getLogger(NotebooksPage.class);
+    final private By lenovoBrand = By.xpath("//span[text() = 'Lenovo']/..");
+    final private By minPrice = By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'от')]/../input");
+    final private By maxPrice = By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'до')]/../input");
 
     /**
      * brand selection in the product filter
@@ -20,12 +22,19 @@ public class NotebooksPage extends BasePage {
      * @param brand brand name of the product
      */
     public void selectBrand(String brand) {
-        addLoggerXPathInfo(brandNameCheckBox);
-        try {
-            driver.findElement(brandNameCheckBox)
-                    .click();
-        } catch (NoSuchElementException e) {
-            logger.error("Element could not found", e);
+        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> Selected brand: " + brand);
+        switch (brand) {
+            case "Lenovo" -> {
+                addLoggerXPathInfo(lenovoBrand);
+                try {
+                    driver.findElement(lenovoBrand)
+                            .click();
+                } catch (NoSuchElementException e) {
+                    logger.error("Element could not found", e);
+                }
+            }
+            case "AnyBrand" -> System.out.println("Add code");
+            default -> logger.error("Brand not found");
         }
     }
 
@@ -36,13 +45,14 @@ public class NotebooksPage extends BasePage {
      * @param max max maximum required price value
      */
     public void setPrice(int min, int max) {
+        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> Selected price from " + min + " to " + max);
         try {
-            driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'от')]/../input"))
+            driver.findElement(minPrice)
                     .sendKeys(String.valueOf(min));
-            driver.findElement(By.xpath("//div[@data-filter-id = 'glprice']//label[contains(text(), 'до')]/../input"))
+            driver.findElement(maxPrice)
                     .sendKeys(String.valueOf(max));
         } catch (NoSuchElementException e) {
-            throw new Error("WebDriver could not locate the element: " + e);
+            logger.error("Element could not found", e);
         }
     }
 

@@ -72,4 +72,14 @@ public class BaseTest {
         Thread.sleep(2000);
     }
 
+    @BeforeEach
+    public void runNotify(){
+        logger.info("Test is running...");
+    }
+
+    @AfterEach
+    public void getNextLine(){
+        System.out.println("\n");
+    }
+
 }

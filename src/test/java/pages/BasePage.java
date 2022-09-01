@@ -3,7 +3,6 @@ package pages;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
