@@ -1,9 +1,9 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchSessionException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.*;
@@ -12,6 +12,7 @@ import java.time.Duration;
 
 public class BaseTest {
     protected static WebDriver driver;
+    public static Logger logger = Logger.getLogger(BaseTest.class);
     YandexMarketHome yandexMarketHome = new YandexMarketHome(driver);
     CatalogPopup catalogPopup = new CatalogPopup(driver);
     ComputersPage computersPage = new ComputersPage(driver);
@@ -26,9 +27,8 @@ public class BaseTest {
             WebDriverManager.operadriver().setup();
             driver = new ChromeDriver();
         } catch (NullPointerException e) {
-            throw new Error("Driver could not found " + e);
+            logger.error("Driver could not found", e);
         }
-
     }
 
     /**
@@ -40,16 +40,15 @@ public class BaseTest {
             driver.manage().window().maximize();
 //Set implicit wait:
 //wait for WebElement
-            int TIMEOUT = 30;
+            int TIMEOUT = 10;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 //wait for loading page
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TIMEOUT));
 //wait for an asynchronous script to finish execution
             driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(TIMEOUT));
-        } catch (NoSuchSessionException e) {
-            throw new Error("Driver could not found: " + e);
+        } catch (NullPointerException e) {
+            logger.error("Driver could not found", e);
         }
-
     }
 
     /**

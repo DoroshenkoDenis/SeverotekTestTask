@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1ce54f0-a074-4918-8e72-7e494c748896" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/log4j-application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CatalogPopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CatalogPopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ComputersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,23 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="severotekTestTask" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="severotekTestTask" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="severotekTestTask" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="severotekTestTask" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -65,14 +90,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\163rus\IdeaProjects\severotekTestTask\src\test\java\tests" />
@@ -80,13 +106,13 @@
       <recent name="C:\Users\163rus\IdeaProjects\severotekTestTask\src\test\resources\tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTest (1)">
-    <configuration name="SearchTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SearchTest.checkSearchedItemsByBrandTest">
+    <configuration name="SearchTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" show_console_on_std_out="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--debug" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -100,8 +126,8 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <ExternalSystemReattachDebugProcess>false</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>true</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="SearchTest.checkItemImgIsVisible" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -127,7 +153,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchTest.checkSearchedItemsByNameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTest.checkSearchedItemsByBrandTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +166,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.SearchTest.checkSearchedItemsByNameTest&quot;" />
+            <option value="&quot;tests.SearchTest.checkSearchedItemsByBrandTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,36 +199,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchTest.negativeCheckSearchedItemsByPriceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="severotekTestTask [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.SearchTest.negativeCheckSearchedItemsByPriceTest&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByBrandTest" />
         <item itemvalue="Gradle.SearchTest (1)" />
+        <item itemvalue="Gradle.severotekTestTask [clean]" />
         <item itemvalue="Gradle.SearchTest.checkItemImgIsVisible" />
         <item itemvalue="Gradle.SearchTest.checkSearchedItemsByPriceTest" />
-        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByNameTest" />
-        <item itemvalue="Gradle.SearchTest.negativeCheckSearchedItemsByPriceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661918674588</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="exceptions added">
+      <created>1661928988827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661928988827</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

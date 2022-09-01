@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -10,18 +11,21 @@ public class CatalogPopup extends BasePage {
         super(driver);
     }
 
+    final private static Logger logger = Logger.getLogger(CatalogPopup.class);
+    private final String categoryName = "Компьютеры";
+    final private By category = By.xpath("//span[text() = '" + categoryName + "']/..");
+
     /**
      * product category selection method
-     *
-     * @param categoryName name of item category
      */
-    public void openCategory(String categoryName) {
+    public void openComputers() {
+        addLoggerXPathInfo(category);
         try {
-            driver.findElement(By.xpath("//span[text() = '" + categoryName + "']/.."))
+            driver.findElement(category)
                     .click();
         } catch (NoSuchElementException e) {
-            throw new Error("WebDriver could not locate the element: " + e);
+            logger.error("Element could not found", e);
         }
-
     }
+
 }

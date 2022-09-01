@@ -18,8 +18,8 @@ public class SearchTest extends BaseTest {
     public void checkSearchedItemsByBrandTest(String brand, int min, int max) throws InterruptedException {
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
-        catalogPopup.openCategory("Компьютеры");
-        computersPage.selectItem("Ноутбуки");
+        catalogPopup.openComputers();
+        computersPage.selectNotebooks();
         notebooksPage.setPrice(min, max);
         notebooksPage.selectBrand(brand);
         scrollDown();
@@ -40,8 +40,8 @@ public class SearchTest extends BaseTest {
     public void checkSearchedItemsByPriceTest(String brand, int min, int max) throws InterruptedException {
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
-        catalogPopup.openCategory("Компьютеры");
-        computersPage.selectItem("Ноутбуки");
+        catalogPopup.openComputers();
+        computersPage.selectNotebooks();
         notebooksPage.setPrice(min, max);
         notebooksPage.selectBrand(brand);
         scrollDown();

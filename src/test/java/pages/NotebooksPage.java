@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -10,17 +11,21 @@ public class NotebooksPage extends BasePage {
         super(driver);
     }
 
+    final private static Logger logger = Logger.getLogger(CatalogPopup.class);
+    final private By brandNameCheckBox = By.xpath("//span[text() = '" + brand + "']/..");
+
     /**
      * brand selection in the product filter
      *
      * @param brand brand name of the product
      */
     public void selectBrand(String brand) {
+        addLoggerXPathInfo(brandNameCheckBox);
         try {
-            driver.findElement(By.xpath("//span[text() = '" + brand + "']/../.."))
+            driver.findElement(brandNameCheckBox)
                     .click();
         } catch (NoSuchElementException e) {
-            throw new Error("WebDriver could not locate the element: " + e);
+            logger.error("Element could not found", e);
         }
     }
 
