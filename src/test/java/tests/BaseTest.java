@@ -13,8 +13,7 @@ import java.time.Duration;
 public class BaseTest {
     protected static WebDriver driver;
     public static Logger logger = Logger.getLogger(BaseTest.class);
-    protected YandexMarketHome yandexMarketHome = new YandexMarketHome(driver);
-    protected CatalogPopup catalogPopup = new CatalogPopup(driver);
+    protected HomePage homePage = new HomePage(driver);
     protected ComputersPage computersPage = new ComputersPage(driver);
     protected NotebooksPage notebooksPage = new NotebooksPage(driver);
 

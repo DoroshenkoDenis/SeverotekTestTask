@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
-public class NotebooksPage extends BasePage {
+public class NotebooksPage extends HomePage {
 
     public NotebooksPage(WebDriver driver) {
         super(driver);

@@ -6,15 +6,17 @@ import org.openqa.selenium.*;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class BasePage {
+public class HomePage {
     protected WebDriver driver;
-    final private static Logger logger = Logger.getLogger(BasePage.class);
+    final private static Logger logger = Logger.getLogger(HomePage.class);
     final private By titles = By.xpath("//div[@data-index]//h3/a");
     final private By prices = By.xpath("//div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
-
+    private final By catalogBtnSelector = By.id("catalogPopupButton");
     private final By applyBtnSelector = By.id("applyButton");
+    private final String categoryName = "Компьютеры";
+    final private By category = By.xpath("//span[text() = '" + categoryName + "']/..");
 
-    public BasePage(WebDriver driver) {
+    public HomePage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -23,7 +25,7 @@ public class BasePage {
      *
      * @param url target url
      */
-    public void open(String url) {
+    public HomePage open(String url) {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> Open page: " + url);
         try {
             driver.get(url);
@@ -32,6 +34,7 @@ public class BasePage {
             driver.quit();
             System.exit(0);
         }
+        return this;
     }
 
     /**
@@ -82,13 +85,40 @@ public class BasePage {
     }
 
     /**
+     * method of opening a catalog on the main page of the Market
+     */
+    public HomePage openCatalog() {
+        addLoggerXPathInfo(catalogBtnSelector);
+        try {
+            driver.findElement(catalogBtnSelector)
+                    .click();
+        } catch (NoSuchElementException e) {
+            logger.error("Element could not found", e);
+        }
+        return this;
+    }
+
+    /**
+     * product category selection method
+     */
+    public void openComputers() {
+        addLoggerXPathInfo(category);
+        try {
+            driver.findElement(category)
+                    .click();
+        } catch (NoSuchElementException e) {
+            logger.error("Element could not found", e);
+        }
+    }
+
+    /**
      * the method applies the filtering conditions by clicking on the apply button
      */
     public void applyFilter() {
         addLoggerXPathInfo(applyBtnSelector);
         try {
             driver.findElement(applyBtnSelector).click();
-        } catch (NoSuchElementException e){
+        } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
         }
     }

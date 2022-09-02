@@ -19,9 +19,9 @@ public class SearchTest extends BaseTest {
     @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByBrandTest(String brand, int min, int max) throws InterruptedException {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
-        yandexMarketHome.open(URL);
-        yandexMarketHome.openCatalog();
-        catalogPopup.openComputers();
+        homePage.open(URL)
+                .openCatalog()
+                .openComputers();
         computersPage.selectNotebooks();
         notebooksPage.setPrice(min, max)
                 .selectBrand(brand)
@@ -43,9 +43,7 @@ public class SearchTest extends BaseTest {
     @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByPriceTest(String brand, int min, int max) throws InterruptedException {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
-        yandexMarketHome.open(URL);
-        yandexMarketHome.openCatalog();
-        catalogPopup.openComputers();
+        homePage.open(URL).openCatalog().openComputers();
         computersPage.selectNotebooks();
         notebooksPage.setPrice(min, max)
                 .selectBrand(brand)
