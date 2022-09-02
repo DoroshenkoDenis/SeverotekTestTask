@@ -18,13 +18,14 @@ public class SearchTest extends BaseTest {
     @ParameterizedTest(name = "{index} - {0} is a brand, price from {1} to {2}")
     @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByBrandTest(String brand, int min, int max) throws InterruptedException {
-        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max );
+        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
         catalogPopup.openComputers();
         computersPage.selectNotebooks();
-        notebooksPage.setPrice(min, max);
-        notebooksPage.selectBrand(brand);
+        notebooksPage.setPrice(min, max)
+                .selectBrand(brand)
+                .applyFilter();
         scrollDown();
         notebooksPage.checkSearchedItemsByBrand(brand)
                 .forEach(Assertions::assertTrue);
@@ -41,13 +42,14 @@ public class SearchTest extends BaseTest {
     @ParameterizedTest(name = "{index} - {0} is a brand, price from {1} to {2}")
     @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByPriceTest(String brand, int min, int max) throws InterruptedException {
-        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max );
+        logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
         yandexMarketHome.open(URL);
         yandexMarketHome.openCatalog();
         catalogPopup.openComputers();
         computersPage.selectNotebooks();
-        notebooksPage.setPrice(min, max);
-        notebooksPage.selectBrand(brand);
+        notebooksPage.setPrice(min, max)
+                .selectBrand(brand)
+                .applyFilter();
         scrollDown();
         notebooksPage.checkSearchedItemsByPrice(min, max)
                 .forEach(Assertions::assertTrue);

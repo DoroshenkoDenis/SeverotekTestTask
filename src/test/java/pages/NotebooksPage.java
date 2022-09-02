@@ -21,7 +21,7 @@ public class NotebooksPage extends BasePage {
      *
      * @param brand brand name of the product
      */
-    public void selectBrand(String brand) {
+    public NotebooksPage selectBrand(String brand) {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> Selected brand: " + brand);
         switch (brand) {
             case "Lenovo" -> {
@@ -36,6 +36,7 @@ public class NotebooksPage extends BasePage {
             case "AnyBrand" -> System.out.println("Add code");
             default -> logger.error("Brand not found");
         }
+        return this;
     }
 
     /**
@@ -44,7 +45,7 @@ public class NotebooksPage extends BasePage {
      * @param min min minimum required price value
      * @param max max maximum required price value
      */
-    public void setPrice(int min, int max) {
+    public NotebooksPage setPrice(int min, int max) {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> Selected price from " + min + " to " + max);
         try {
             driver.findElement(minPrice)
@@ -54,6 +55,7 @@ public class NotebooksPage extends BasePage {
         } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
         }
+        return this;
     }
 
 }

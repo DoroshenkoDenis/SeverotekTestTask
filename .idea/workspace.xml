@@ -8,6 +8,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/log4j-application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/NotebooksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +62,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,7 +102,7 @@
       <recent name="C:\Users\163rus\IdeaProjects\severotekTestTask\src\test\resources\tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTest.checkSearchedItemsByPriceTest">
+  <component name="RunManager" selected="Gradle.SearchTest (1)">
     <configuration name="SearchTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true" show_console_on_std_out="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,9 +218,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByPriceTest" />
-        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByBrandTest" />
         <item itemvalue="Gradle.SearchTest (1)" />
+        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByBrandTest" />
+        <item itemvalue="Gradle.SearchTest.checkSearchedItemsByPriceTest" />
         <item itemvalue="Gradle.severotekTestTask [clean]" />
         <item itemvalue="Gradle.SearchTest.checkItemImgIsVisible" />
       </list>
@@ -330,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662061655984</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="logs added">
+      <created>1662090166785</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662090166785</updated>
+    </task>
+    <task id="LOCAL-00016" summary="logs added">
+      <created>1662090201751</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662090201751</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -12,6 +12,8 @@ public class BasePage {
     final private By titles = By.xpath("//div[@data-index]//h3/a");
     final private By prices = By.xpath("//div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
 
+    private final By applyBtnSelector = By.id("applyButton");
+
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
@@ -77,6 +79,18 @@ public class BasePage {
             driver.quit();
         }
         return null;
+    }
+
+    /**
+     * the method applies the filtering conditions by clicking on the apply button
+     */
+    public void applyFilter() {
+        addLoggerXPathInfo(applyBtnSelector);
+        try {
+            driver.findElement(applyBtnSelector).click();
+        } catch (NoSuchElementException e){
+            logger.error("Element could not found", e);
+        }
     }
 
     /**

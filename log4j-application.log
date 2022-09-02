@@ -5692,3 +5692,759 @@ Session ID: 509de0842c5b865956a723f8af328124
 2022-09-02 07:41:58,041  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
 2022-09-02 07:41:58,041  INFO [Test worker] BasePage:86 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
 2022-09-02 07:42:00,171  INFO [Test worker] BasePage:86 - checkSearchedItemsByPrice -> Find Elements: By.xpath: //div[@data-zone-name = '1price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]
+2022-09-02 08:05:02,169  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:05:02,185  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:05:03,955  INFO [Test worker] BaseTest:79 - Test is running...
+2022-09-02 08:05:04,108  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:05:04,109  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:05:06,192  INFO [Test worker] BasePage:88 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:05:06,353  INFO [Test worker] BasePage:88 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:05:07,606  INFO [Test worker] BaseTest:79 - Test is running...
+2022-09-02 08:05:07,620  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:05:07,621  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:05:08,517  INFO [Test worker] BasePage:88 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:05:13,190  INFO [Test worker] BasePage:88 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:07:03,934  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:07:03,956  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:07:05,277  INFO [Test worker] BaseTest:79 - Test is running...
+2022-09-02 08:07:05,451  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:07:05,452  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:07:05,935  INFO [Test worker] BasePage:88 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:07:10,654  INFO [Test worker] BasePage:88 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:07:12,530  INFO [Test worker] BaseTest:79 - Test is running...
+2022-09-02 08:07:12,552  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:07:12,553  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:07:14,748  INFO [Test worker] BasePage:88 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:07:14,865  INFO [Test worker] BasePage:88 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:10:18,161  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:10:18,176  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:10:19,460  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:10:19,607  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:10:19,607  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:10:20,115  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:10:25,529  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:10:27,239  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:10:27,250  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:10:27,250  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:10:29,595  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:10:29,754  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:14:34,373  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:14:34,393  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:14:35,673  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:14:35,836  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:14:35,852  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:14:37,829  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:14:38,038  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:14:38,810  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:14:38,831  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:14:38,832  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:14:39,482  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:14:46,397  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:18:51,707  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:18:51,728  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:18:53,073  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:18:53,225  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:18:53,226  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:18:53,729  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:18:59,687  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:19:01,432  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:19:01,444  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:19:01,445  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:19:03,832  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:19:03,993  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:19:42,141  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:19:42,161  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:19:43,442  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:19:43,596  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:19:43,596  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:19:44,099  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:19:49,440  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:19:51,413  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:19:51,431  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:19:51,431  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:19:54,629  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:19:54,781  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:24:52,187  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:24:52,207  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:24:53,545  INFO [Test worker] BaseTest:78 - Test is running...
+2022-09-02 08:24:53,710  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:24:53,726  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:24:54,290  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:24:59,499  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:25:01,735  INFO [Test worker] BaseTest:78 - Test is running...
+2022-09-02 08:25:01,735  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:25:01,751  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:25:04,395  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:25:04,547  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:26:05,741  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:26:05,761  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:26:07,042  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:26:07,178  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:26:07,193  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:26:07,733  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:26:12,712  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:26:14,691  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:26:14,705  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:26:14,705  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:26:17,168  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:26:17,342  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:31:47,905  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:31:47,925  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:31:49,207  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:31:49,377  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:31:49,377  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:31:49,965  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:31:56,161  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:31:57,845  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:31:57,858  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:31:57,859  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:32:00,196  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:32:00,349  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:34:00,324  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:34:00,344  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:34:01,608  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:34:01,761  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 08:34:01,762  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:34:02,231  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:34:07,484  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:34:09,242  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:34:09,267  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:34:09,268  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:34:12,274  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:34:12,443  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:35:09,070  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:35:09,091  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:35:10,516  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:35:10,693  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:35:10,693  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:35:11,213  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:35:17,162  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:38:13,721  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:38:13,742  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:38:15,130  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 08:38:15,312  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:38:15,312  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:38:15,887  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:38:21,620  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:41:06,808  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:41:06,828  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:41:08,072  INFO [Test worker] BaseTest:76 - Test is running...
+2022-09-02 08:41:08,214  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:41:08,214  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:41:08,962  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:41:13,861  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:41:17,728  INFO [Test worker] BasePage:86 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 08:41:21,542  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 08:41:22,137  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 08:41:22,137  INFO [Test worker] BasePage:86 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 08:41:24,265  INFO [Test worker] BasePage:86 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a
+2022-09-02 08:48:50,004  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:48:50,027  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:48:51,278  INFO [Test worker] BaseTest:76 - Test is running...
+2022-09-02 08:48:51,452  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:48:51,453  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:48:53,252  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:48:53,370  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:50:36,305  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:50:36,337  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:51:00,066  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:51:00,098  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:52:45,566  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:52:45,581  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:52:46,900  INFO [Test worker] BaseTest:78 - Test is running...
+2022-09-02 08:52:47,056  INFO [Test worker] SearchTest:23 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:52:47,056  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:52:47,646  INFO [Test worker] BasePage:89 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:52:53,443  INFO [Test worker] BasePage:89 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:54:29,917  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:54:29,948  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:54:31,226  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 08:54:31,405  INFO [Test worker] SearchTest:23 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:54:31,405  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:54:31,942  INFO [Test worker] BasePage:88 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:54:37,077  INFO [Test worker] BasePage:88 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:56:57,286  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:56:57,306  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:56:58,571  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 08:56:58,722  INFO [Test worker] SearchTest:23 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 08:56:58,722  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 08:57:00,430  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 08:57:00,582  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 08:58:28,095  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:58:28,110  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 08:59:40,014  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 08:59:40,036  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 09:02:09,982  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 09:02:10,003  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 09:02:11,353  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 09:02:11,534  INFO [Test worker] SearchTest:46 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 09:02:11,535  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:02:12,080  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:02:18,033  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:02:39,107  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 09:02:39,107  INFO [Test worker] SearchTest:23 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 09:02:39,107  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:02:41,454  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:02:41,663  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:03:35,957  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 09:03:35,979  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 09:03:37,400  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 09:03:37,559  INFO [Test worker] SearchTest:46 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 09:03:37,559  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:03:38,077  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:03:44,008  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:03:45,720  INFO [Test worker] BaseTest:80 - Test is running...
+2022-09-02 09:03:45,726  INFO [Test worker] SearchTest:23 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 09:03:45,726  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:03:48,613  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:03:48,857  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:27:18,971  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 09:27:18,991  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 09:27:20,241  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 09:27:20,401  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 09:27:20,412  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:27:21,003  INFO [Test worker] BasePage:100 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:27:25,684  INFO [Test worker] BasePage:100 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:27:29,952  INFO [Test worker] BasePage:100 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 09:27:34,016  INFO [Test worker] NotebooksPage:49 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 09:27:34,624  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 09:27:34,624  INFO [Test worker] BasePage:100 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 09:27:36,624  INFO [Test worker] BasePage:100 - applyFilter -> Find Elements: By.id: applyButton
+2022-09-02 09:27:46,676 ERROR [Test worker] BasePage:92 - Element could not found
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"applyButton"}
+  (Session info: chrome=104.0.5112.102)
+  (Driver info: operadriver=104.0.5112.81 (5b7b76419d50f583022568b6764b630f6ddc9208-refs/branch-heads/5112@{#1309}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-P6NBLT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [683c98df695171f556a643144e69bb7d, findElement {using=id, value=applyButton}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53497}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 104.0.5112.81 (5b7b76419d50..., userDataDir: C:\Users\163rus\AppData\Loc...}, pageLoadStrategy: normal, platform: Windows, platformName: ANY, proxy: Proxy(), rotatable: false, se:cdp: ws://localhost:53497/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 104.0.5112.102, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 683c98df695171f556a643144e69bb7d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.BasePage.applyFilter(BasePage.java:90)
+	at tests.SearchTest.checkSearchedItemsByBrandTest(SearchTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:142)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:110)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:44)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-09-02 09:27:48,992  INFO [Test worker] BasePage:100 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a
+2022-09-02 09:30:54,400  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 09:30:54,425  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 09:30:55,808  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 09:30:55,961  INFO [Test worker] SearchTest:45 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 09:30:55,962  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:30:57,657  INFO [Test worker] BasePage:100 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:30:57,786  INFO [Test worker] BasePage:100 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:30:58,970  INFO [Test worker] BasePage:100 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 09:31:07,417  INFO [Test worker] NotebooksPage:49 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 09:31:08,259  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 09:31:08,259  INFO [Test worker] BasePage:100 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 09:31:08,384  INFO [Test worker] BasePage:100 - applyFilter -> Find Elements: By.id: applyButton
+2022-09-02 09:31:18,431 ERROR [Test worker] BasePage:92 - Element could not found
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"applyButton"}
+  (Session info: chrome=104.0.5112.102)
+  (Driver info: operadriver=104.0.5112.81 (5b7b76419d50f583022568b6764b630f6ddc9208-refs/branch-heads/5112@{#1309}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-P6NBLT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25e50552b2ae608612f5ffc7a06ceeb2, findElement {using=id, value=applyButton}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53618}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 104.0.5112.81 (5b7b76419d50..., userDataDir: C:\Users\163rus\AppData\Loc...}, pageLoadStrategy: normal, platform: Windows, platformName: ANY, proxy: Proxy(), rotatable: false, se:cdp: ws://localhost:53618/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 104.0.5112.102, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25e50552b2ae608612f5ffc7a06ceeb2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.BasePage.applyFilter(BasePage.java:90)
+	at tests.SearchTest.checkSearchedItemsByPriceTest(SearchTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:142)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:110)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:44)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-09-02 09:31:20,471  INFO [Test worker] BasePage:100 - checkSearchedItemsByPrice -> Find Elements: By.xpath: //div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]
+2022-09-02 09:31:21,244  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 09:31:21,254  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 09:31:21,254  INFO [Test worker] BasePage:27 - open -> Open page: https://market.yandex.ru/
+2022-09-02 09:31:23,548  INFO [Test worker] BasePage:100 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 09:31:23,646  INFO [Test worker] BasePage:100 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 09:31:24,736  INFO [Test worker] BasePage:100 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 09:31:33,508  INFO [Test worker] NotebooksPage:49 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 09:31:34,132  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 09:31:34,133  INFO [Test worker] BasePage:100 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 09:31:34,288  INFO [Test worker] BasePage:100 - applyFilter -> Find Elements: By.id: applyButton
+2022-09-02 09:31:44,320 ERROR [Test worker] BasePage:92 - Element could not found
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"applyButton"}
+  (Session info: chrome=104.0.5112.102)
+  (Driver info: operadriver=104.0.5112.81 (5b7b76419d50f583022568b6764b630f6ddc9208-refs/branch-heads/5112@{#1309}),platform=Windows NT 10.0.19044 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-P6NBLT8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25e50552b2ae608612f5ffc7a06ceeb2, findElement {using=id, value=applyButton}]
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, browserConnectionEnabled: false, browserName: opera, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53618}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, opera: {operadriverVersion: 104.0.5112.81 (5b7b76419d50..., userDataDir: C:\Users\163rus\AppData\Loc...}, pageLoadStrategy: normal, platform: Windows, platformName: ANY, proxy: Proxy(), rotatable: false, se:cdp: ws://localhost:53618/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 104.0.5112.102, webStorageEnabled: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 25e50552b2ae608612f5ffc7a06ceeb2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:217)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:169)
+	at org.openqa.selenium.remote.codec.jwp.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:41)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:83)
+	at org.openqa.selenium.remote.codec.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:47)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at pages.BasePage.applyFilter(BasePage.java:90)
+	at tests.SearchTest.checkSearchedItemsByBrandTest(SearchTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:142)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$2(TestTemplateTestDescriptor.java:110)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:110)
+	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:44)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:99)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:79)
+	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:75)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-09-02 09:31:46,630  INFO [Test worker] BasePage:100 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a

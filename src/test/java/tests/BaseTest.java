@@ -13,10 +13,10 @@ import java.time.Duration;
 public class BaseTest {
     protected static WebDriver driver;
     public static Logger logger = Logger.getLogger(BaseTest.class);
-    YandexMarketHome yandexMarketHome = new YandexMarketHome(driver);
-    CatalogPopup catalogPopup = new CatalogPopup(driver);
-    ComputersPage computersPage = new ComputersPage(driver);
-    NotebooksPage notebooksPage = new NotebooksPage(driver);
+    protected YandexMarketHome yandexMarketHome = new YandexMarketHome(driver);
+    protected CatalogPopup catalogPopup = new CatalogPopup(driver);
+    protected ComputersPage computersPage = new ComputersPage(driver);
+    protected NotebooksPage notebooksPage = new NotebooksPage(driver);
 
     /**
      * driver manager automatically selects the driver for the required operating system and installed browser
@@ -38,7 +38,7 @@ public class BaseTest {
     public void openFull() {
         try {
             driver.manage().window().maximize();
-//Set implicit wait:
+            //Set implicit wait:
 //wait for WebElement
             int TIMEOUT = 10;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
@@ -73,12 +73,12 @@ public class BaseTest {
     }
 
     @BeforeEach
-    public void runNotify(){
+    public void runNotify() {
         logger.info("Test is running...");
     }
 
     @AfterEach
-    public void getNextLine(){
+    public void getNextLine() {
         System.out.println("\n");
     }
 
