@@ -21,8 +21,7 @@ public class SearchTest extends BaseTest {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
         homePage.open(URL)
                 .openCatalog()
-                .openComputers();
-        computersPage.selectNotebooks();
+                .selectItemByHoverToCategory();
         notebooksPage.setPrice(min, max)
                 .selectBrand(brand)
                 .applyFilter();
@@ -43,8 +42,9 @@ public class SearchTest extends BaseTest {
     @CsvFileSource(resources = {"/testData.csv"}, delimiter = ';')
     public void checkSearchedItemsByPriceTest(String brand, int min, int max) throws InterruptedException {
         logger.info(Thread.currentThread().getStackTrace()[1].getMethodName() + " -> " + brand + " from " + min + " to " + max);
-        homePage.open(URL).openCatalog().openComputers();
-        computersPage.selectNotebooks();
+        homePage.open(URL)
+                .openCatalog()
+                .selectItemByHoverToCategory();
         notebooksPage.setPrice(min, max)
                 .selectBrand(brand)
                 .applyFilter();

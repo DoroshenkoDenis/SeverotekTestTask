@@ -14,7 +14,6 @@ public class BaseTest {
     protected static WebDriver driver;
     public static Logger logger = Logger.getLogger(BaseTest.class);
     protected HomePage homePage = new HomePage(driver);
-    protected ComputersPage computersPage = new ComputersPage(driver);
     protected NotebooksPage notebooksPage = new NotebooksPage(driver);
 
     /**
@@ -23,7 +22,7 @@ public class BaseTest {
     @BeforeAll
     static void setUp() {
         try {
-            WebDriverManager.operadriver().setup();
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         } catch (NullPointerException e) {
             logger.error("Driver could not found", e);
@@ -39,7 +38,7 @@ public class BaseTest {
             driver.manage().window().maximize();
             //Set implicit wait:
 //wait for WebElement
-            int TIMEOUT = 10;
+            int TIMEOUT = 30;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 //wait for loading page
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TIMEOUT));

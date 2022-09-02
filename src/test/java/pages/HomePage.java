@@ -2,11 +2,14 @@ package pages;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Stream;
 
 public class HomePage {
+
     protected WebDriver driver;
     final private static Logger logger = Logger.getLogger(HomePage.class);
     final private By titles = By.xpath("//div[@data-index]//h3/a");
@@ -15,6 +18,8 @@ public class HomePage {
     private final By showResultsBtnSelector = By.id("showButton");
     private final String categoryName = "Компьютеры";
     final private By category = By.xpath("//span[text() = '" + categoryName + "']/..");
+    private final String itemName = "Ноутбуки";
+    final private By item = By.xpath("//a[text() = '" + itemName + "']");
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
@@ -99,13 +104,14 @@ public class HomePage {
     }
 
     /**
-     * product category selection method
+     * method for selecting an item from a list
      */
-    public void openComputers() {
-        addLoggerXPathInfo(category);
+    public void selectItemByHoverToCategory() {
         try {
-            driver.findElement(category)
-                    .click();
+            addLoggerXPathInfo(category);
+            new Actions(driver).moveToElement(driver.findElement(category)).pause(Duration.ofSeconds(5)).build().perform();
+            addLoggerXPathInfo(item);
+            driver.findElement(item).click();
         } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
         }
