@@ -10,7 +10,7 @@ public class BasePage {
     protected WebDriver driver;
     final private static Logger logger = Logger.getLogger(BasePage.class);
     final private By titles = By.xpath("//div[@data-index]//h3/a");
-    final private By prices = By.xpath("//div[@data-zone-name = '1price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
+    final private By prices = By.xpath("//div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
