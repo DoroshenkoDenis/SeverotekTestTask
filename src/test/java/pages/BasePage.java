@@ -10,7 +10,7 @@ public class BasePage {
     protected WebDriver driver;
     final private static Logger logger = Logger.getLogger(BasePage.class);
     final private By titles = By.xpath("//div[@data-index]//h3/a");
-    final private By prices = By.xpath("//div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
+    final private By prices = By.xpath("//div[@data-zone-name = '1price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -42,7 +42,10 @@ public class BasePage {
         addLoggerXPathInfo(titles);
         try {
             List<WebElement> searchResult = driver.findElements(titles);
-            return searchResult.stream().map(webElement -> webElement.getAttribute("title").toLowerCase().contains(brand.toLowerCase()));
+            if (searchResult.stream().anyMatch(WebElement::isEnabled)) {
+                return searchResult.stream().map(webElement -> webElement.getAttribute("title").toLowerCase().contains(brand.toLowerCase()));
+            }
+            return Stream.generate(() -> Boolean.FALSE).limit(1);
         } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
             driver.quit();
@@ -61,11 +64,14 @@ public class BasePage {
         addLoggerXPathInfo(prices);
         try {
             List<WebElement> searchResult = driver.findElements(prices);
-            return searchResult.stream()
-                    .map(WebElement::getText)
-                    .map(e -> e.replace(" ", ""))
-                    .map(Integer::parseInt)
-                    .map(e -> e >= min && e <= max);
+            if (searchResult.stream().anyMatch(WebElement::isEnabled)) {
+                return searchResult.stream()
+                        .map(WebElement::getText)
+                        .map(e -> e.replace(" ", ""))
+                        .map(Integer::parseInt)
+                        .map(e -> e >= min && e <= max);
+            }
+            return Stream.generate(() -> Boolean.FALSE).limit(1);
         } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
             driver.quit();

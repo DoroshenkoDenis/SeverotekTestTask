@@ -5579,3 +5579,116 @@ Session ID: 509de0842c5b865956a723f8af328124
 	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+2022-09-02 07:08:39,076  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:08:39,098  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:08:41,423  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:08:41,592  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:08:41,592  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:08:43,426  INFO [Test worker] BasePage:80 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:08:43,549  INFO [Test worker] BasePage:80 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:08:45,143  INFO [Test worker] BasePage:80 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:08:53,305  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:08:53,945  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:08:53,946  INFO [Test worker] BasePage:80 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:08:56,076  INFO [Test worker] BasePage:80 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a
+2022-09-02 07:12:11,326  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:12:11,357  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:12:12,792  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:12:12,972  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:12:12,972  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:12:15,151  INFO [Test worker] BasePage:80 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:12:15,343  INFO [Test worker] BasePage:80 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:12:17,092  INFO [Test worker] BasePage:80 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:12:26,601  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:12:27,398  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:12:27,398  INFO [Test worker] BasePage:80 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:12:29,539  INFO [Test worker] BasePage:80 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h33/a
+2022-09-02 07:31:27,120  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:31:27,135  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:31:28,507  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:31:28,689  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:31:28,689  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:31:29,186  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:31:35,260  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:31:39,241  INFO [Test worker] BasePage:83 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:31:43,377  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:31:44,168  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:31:44,168  INFO [Test worker] BasePage:83 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:31:46,341  INFO [Test worker] BasePage:83 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h33/a
+2022-09-02 07:35:40,757  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:35:40,788  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:35:43,276  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:35:43,450  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 07:35:43,451  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:35:44,047  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:35:48,860  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:35:51,752  INFO [Test worker] BasePage:83 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:35:56,337  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:35:57,314  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:35:57,315  INFO [Test worker] BasePage:83 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:35:59,450  INFO [Test worker] BasePage:83 - checkSearchedItemsByPrice -> Find Elements: By.xpath: //div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]
+2022-09-02 07:36:00,374  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:36:00,390  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:36:00,390  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:36:00,681  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:36:06,620  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:36:10,992  INFO [Test worker] BasePage:83 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:36:14,785  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:36:15,508  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:36:15,508  INFO [Test worker] BasePage:83 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:36:17,622  INFO [Test worker] BasePage:83 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h33/a
+2022-09-02 07:36:34,144  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:36:34,160  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:36:35,468  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:36:35,634  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 07:36:35,635  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:36:36,163  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:36:40,997  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:36:55,664  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:36:55,695  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:36:56,980  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:36:57,144  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:36:57,145  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:36:57,741  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:37:03,594  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:37:07,764  INFO [Test worker] BasePage:83 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:37:09,598  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:37:16,808  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:37:16,809  INFO [Test worker] BasePage:83 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:37:18,975  INFO [Test worker] BasePage:83 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h33/a
+2022-09-02 07:38:20,422  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:38:20,437  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:38:21,763  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:38:21,953  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:38:21,954  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:38:22,711  INFO [Test worker] BasePage:83 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:38:28,077  INFO [Test worker] BasePage:83 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:38:32,567  INFO [Test worker] BasePage:83 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:38:34,235  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:38:39,862  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:38:39,862  INFO [Test worker] BasePage:83 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:38:42,017  INFO [Test worker] BasePage:83 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a
+2022-09-02 07:41:11,904  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:41:11,920  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:41:13,227  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:41:13,407  INFO [Test worker] SearchTest:21 - checkSearchedItemsByBrandTest -> Lenovo from 20000 to 30000
+2022-09-02 07:41:13,407  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:41:13,957  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:41:19,093  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:41:23,284  INFO [Test worker] BasePage:86 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:41:26,878  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:41:27,758  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:41:27,758  INFO [Test worker] BasePage:86 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:41:29,897  INFO [Test worker] BasePage:86 - checkSearchedItemsByBrand -> Find Elements: By.xpath: //div[@data-index]//h3/a
+2022-09-02 07:41:41,548  INFO [Test worker] WebDriverManager:1237 - Using operadriver 104.0.5112.81 (resolved driver for Opera 90)
+2022-09-02 07:41:41,564  INFO [Test worker] WebDriverManager:1290 - Exporting webdriver.chrome.driver as C:\Users\163rus\.cache\selenium\operadriver\win64\104.0.5112.81\operadriver.exe
+2022-09-02 07:41:42,943  INFO [Test worker] BaseTest:77 - Test is running...
+2022-09-02 07:41:43,103  INFO [Test worker] SearchTest:44 - checkSearchedItemsByPriceTest -> Lenovo from 20000 to 30000
+2022-09-02 07:41:43,104  INFO [Test worker] BasePage:25 - open -> Open page: https://market.yandex.ru/
+2022-09-02 07:41:43,604  INFO [Test worker] BasePage:86 - openCatalog -> Find Elements: By.id: catalogPopupButton
+2022-09-02 07:41:49,090  INFO [Test worker] BasePage:86 - openComputers -> Find Elements: By.xpath: //span[text() = 'Компьютеры']/..
+2022-09-02 07:41:53,561  INFO [Test worker] BasePage:86 - selectNotebooks -> Find Elements: By.xpath: //a[text() = 'Ноутбуки']
+2022-09-02 07:41:57,436  INFO [Test worker] NotebooksPage:48 - setPrice -> Selected price from 20000 to 30000
+2022-09-02 07:41:58,041  INFO [Test worker] NotebooksPage:25 - selectBrand -> Selected brand: Lenovo
+2022-09-02 07:41:58,041  INFO [Test worker] BasePage:86 - selectBrand -> Find Elements: By.xpath: //span[text() = 'Lenovo']/..
+2022-09-02 07:42:00,171  INFO [Test worker] BasePage:86 - checkSearchedItemsByPrice -> Find Elements: By.xpath: //div[@data-zone-name = '1price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]
