@@ -12,7 +12,7 @@ public class HomePage {
     final private By titles = By.xpath("//div[@data-index]//h3/a");
     final private By prices = By.xpath("//div[@data-zone-name = 'price']//span[@data-auto='mainPrice']/span[not(contains(text(), 'от'))][1]");
     private final By catalogBtnSelector = By.id("catalogPopupButton");
-    private final By applyBtnSelector = By.id("applyButton");
+    private final By showResultsBtnSelector = By.id("showButton");
     private final String categoryName = "Компьютеры";
     final private By category = By.xpath("//span[text() = '" + categoryName + "']/..");
 
@@ -115,9 +115,9 @@ public class HomePage {
      * the method applies the filtering conditions by clicking on the apply button
      */
     public void applyFilter() {
-        addLoggerXPathInfo(applyBtnSelector);
+        addLoggerXPathInfo(showResultsBtnSelector);
         try {
-            driver.findElement(applyBtnSelector).click();
+            driver.findElement(showResultsBtnSelector).click();
         } catch (NoSuchElementException e) {
             logger.error("Element could not found", e);
         }
