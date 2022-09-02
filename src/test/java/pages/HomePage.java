@@ -104,7 +104,7 @@ public class HomePage {
     }
 
     /**
-     * method for selecting an item from a list
+     * method for selecting an item from a list using the category of products
      */
     public void selectItemByHoverToCategory() {
         try {
