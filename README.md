@@ -6,4 +6,4 @@ Test case in java using Page Object and Selenium
 3. Pay attention to the captcha
 4. JDK 17 must be installed
 5. For change test data use testData.csv file in resourses folder 
-
+6. [Отсутствует кнопка "Показать" на странице фильтрации](https://github.com/DoroshenkoDenis/SeverotekTestTask/issues/ "Issue")
