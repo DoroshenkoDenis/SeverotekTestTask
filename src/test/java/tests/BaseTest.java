@@ -18,27 +18,17 @@ public class BaseTest {
 
     /**
      * driver manager automatically selects the driver for the required operating system and installed browser
+     * driver sets browser window size to maximum and implicit wait for DOM elements
      */
     @BeforeAll
     static void setUp() {
         try {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } catch (NullPointerException e) {
-            logger.error("Driver could not found", e);
-        }
-    }
-
-    /**
-     * method sets browser window size to maximum and implicit wait for DOM elements
-     */
-    @BeforeEach
-    public void openFull() {
-        try {
             driver.manage().window().maximize();
             //Set implicit wait:
 //wait for WebElement
-            int TIMEOUT = 30;
+            int TIMEOUT = 20;
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 //wait for loading page
             driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(TIMEOUT));
@@ -73,11 +63,6 @@ public class BaseTest {
     @BeforeEach
     public void runNotify() {
         logger.info("Test is running...");
-    }
-
-    @AfterEach
-    public void getNextLine() {
-        System.out.println("\n");
     }
 
 }
