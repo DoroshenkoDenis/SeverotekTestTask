@@ -8,7 +8,9 @@
 6. [Отсутствует кнопка "Показать" на странице фильтрации](https://github.com/DoroshenkoDenis/SeverotekTestTask/issues/1/ "Issue")
 
 Использован стек JAVA + Junit
+
 Реализовано логгирование
+
 Входные данные размещены в testData.csv в папке src/test/resources/testData.csv
 
 Флоу:
