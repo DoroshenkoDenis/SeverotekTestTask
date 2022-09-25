@@ -7,7 +7,7 @@
 5. For change test data use testData.csv file in resourses folder 
 6. [Отсутствует кнопка "Показать" на странице фильтрации](https://github.com/DoroshenkoDenis/SeverotekTestTask/issues/1/ "Issue")
 
-Использован стек JAVA + Seenium + Junit
+Использован стек JAVA + Selenium + Junit
 
 Реализовано логгирование
 
